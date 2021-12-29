@@ -3,11 +3,11 @@ provider "aws" {
     version = "~> 3.0" # Versão do plugin do terraform
 }
 
-provider "aws" {
-    alias = "ohio" # apelido
-    region = "us-east-2" # Este bloco será usado para multi region
-    version = "~> 3.0" # Versão do plugin do terraform
-}
+# provider "aws" {
+#     alias = "ohio" # apelido
+#     region = "us-east-2" # Este bloco será usado para multi region
+#     version = "~> 3.0" # Versão do plugin do terraform
+# }
 
 terraform {
     backend "s3" {

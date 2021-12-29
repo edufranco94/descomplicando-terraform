@@ -8,3 +8,7 @@ variable "image_id" { #nome da variavel
       error_message = "The image_id value must be a valid AMI id, starting with \"ami-\"."
   }
 }
+
+variable "servers" {
+ #Não iremos especificar valor, pois, quando deixo em branco, eu obrigo o operador a passar algum input. Mas poderia usar o "default" como valor sugerido/provisório 
+}
