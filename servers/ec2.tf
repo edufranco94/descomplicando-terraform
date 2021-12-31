@@ -23,7 +23,7 @@ data "aws_ami" "ubuntu" {
 
 
 resource "aws_instance" "web" {
-    count = var.servers #quantidade de instâncias que quero provisionar
+    count = 5 #quantidade de instâncias que quero provisionar
     ami = var.image_id
     instance_type = "t2.micro"
     # name = "teste-machine"
