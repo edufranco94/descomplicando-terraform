@@ -1,6 +1,6 @@
 module "servers" { #nome do label do meu módulo
   source = "./servers" #caminho de onde ele vai buscar o meu módulo
-  servers = 2 #input
+  servers = 1 #input
 }
 
 output "ip_address" {
